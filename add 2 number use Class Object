@@ -1,5 +1,4 @@
 package abc;
-
 public class abc
 {
 int x,y,sum;
@@ -13,9 +12,8 @@ int x,y,sum;
        sum=x+y;
        System.out.println("x is:"+x);
        System.out.println("y is:"+y); 
-        System.out.println("sum is:"+sum);
-   }
- 
+       System.out.println("sum is:"+sum);
+   } 
 }
   class xyz
     {
@@ -23,11 +21,10 @@ int x,y,sum;
         {
         abc obj;
         obj=new abc();
-                obj.get(6,7);
-                obj.put();
+        obj.get(6,7);
+        obj.put();
         }
     }
-
 run:
 x is:6
 y is:7
